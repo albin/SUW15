@@ -1,24 +1,17 @@
 var profileDiv = getClass("profile");
 
 function getClass(c){
-
 	return document.getElementsByClassName(c);
 }
 
-function addProfile(pDiv, name, message){
-	var h2 = document.createElement("h2");
-	var p = document.createElement("p");
+function alertAllNames(pDiv){
+	var len = pDiv.length;
+	var names = [];
+	for (var i = len - 1; i >= 0; i--) {
+		names.push(pDiv[i].childNodes[1].innerHTML+" ");
+	} 
 
-	h2.innerHTML = name;
-	p.innerHTML = message;
-
-	profileDiv.appendChild(h2);
-	profileDiv.appendChild(p);
+	alert("DE PROFILER SOM FINNS ÄN SÅ LÄNGE ÄR: "+names);
 }
 
-addProfile(profileDiv,"Martin Nilsson", "<3 JS");
-
-
-
-
-
+alertAllNames(profileDiv);
