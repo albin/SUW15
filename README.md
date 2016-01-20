@@ -5,4 +5,4 @@ Unfollow hubica!
 <br><hr style="width: 95%; height: 3px; background: black; margin: 0 auto;">
 Everyone above this line is bad! 
 <br><hr style="width: 95%; height: 3px; background: black; margin: 0 auto;">
-Unfollow Marcus (GAY)! ...Not! hes the best guy ever / Granit
+Unfollow Marcus (Bad)! ...Not! hes the best guy ever / Granit
